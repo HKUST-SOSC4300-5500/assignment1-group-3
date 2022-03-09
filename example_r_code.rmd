@@ -17,6 +17,9 @@ And check dimension of data
 print (dim(train))
 print (dim(test))
 ```
+```{r}
+names(train)
+```
 
 We train our simplest model. Here I am just using age as the single predictor, and logistic regression as the model.
 
